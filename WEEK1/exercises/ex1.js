@@ -113,4 +113,31 @@ console.log(tenants!==20);
 console.log(tenants !=20);
 console.log(tenants<=20);
 
+let myAge1 = 45;
+console.log(myAge1!=20);
+console.log(myAge!==20);
+console.log(myAge>=20);
+
+console.log(10!="10");
+console.log(10!=='10');
+console.log(5!=7);
+console.log(5!==5);
+
+
+console.log(2=="2");
+console.log(2==="2");
+console.log(false=="0");
+console.log(false==="0");
+
+
+// logical operators
+console.log(5 > 3 && 10 > 5);   // A True
+console.log(5 > 3 && 10 < 5);   // B false
+console.log(5 > 3 || 10 < 5);   // C True
+console.log(5 < 3 || 10 < 5);   // D False
+console.log(!(5 > 3));          // E false
+console.log(!(5 < 3));          // F True
+
+
+
 
