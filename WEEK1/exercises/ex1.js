@@ -139,5 +139,13 @@ console.log(!(5 > 3));          // E false
 console.log(!(5 < 3));          // F True
 
 
+console.log(!(9%2===0)&&(3**2===9));
 
+const partA = 9 % 2 === 0;
+console.log(partA);
 
+let age1 =20;
+if(age1>=18){
+  console.log("You are adult");
+  
+}
