@@ -10,6 +10,7 @@ for (let i=1;i<=10;i++){
 }
 
 
+// Write a for loop to print even numbers from 0 to 20
 for(let i=0;i<=20;i++){
     if (i%2===0){
         console.log(i);
@@ -22,6 +23,8 @@ for(let i=0;i<=12;i+=2){
     console.log(i);
     
 }
+
+//  Write a for loop to print odd  numbers between  0 to 19
 
 for(let i=1;i<=19;i++){
     if (i%2===1)
